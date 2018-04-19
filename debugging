@@ -25,10 +25,10 @@ no+=1;
 
 
 
-if (counter <= 100) {
+while (counter <= 100) {
 
 
-   if (divisor < no) 
+   while (divisor < no) 
 {
 
 
