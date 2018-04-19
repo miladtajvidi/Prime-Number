@@ -18,15 +18,14 @@ if ( no == 2 )
 {
 Print "The number is prime! " ;
 counter+=1;
+no+=1;
 }
 
 
 while (counter <= 100)
 {
 
-if ( no > 2)
-{
-     while (divisor < no) 
+   while (divisor < no) 
 {
 
 remainder = no % divisor;
@@ -40,6 +39,7 @@ divisor +=1 ;
 else if (remainder == 0)
 {
 Print "The number is not prime!";
+}
 }
 
 Print " The number is prime!" ;
